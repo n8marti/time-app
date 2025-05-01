@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "time_app"
+version = "0.1"
+authors = [
+    {name = "Nate Marti", email = "nate_marti@sil.org"},
+]
+description = "GUI/CLI app demo"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+#dependencies = [
+#    "tkinter",
+#]
