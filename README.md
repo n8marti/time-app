@@ -4,6 +4,11 @@ A simple Python app to demonstrate GUI/CLI interface on top of a common base
 class whose API is comprised of required subclass methods.
 
 ## Installation
+
+First, you need to be sure that tkinter is installed. This is included in the
+standard Python installations in Windows and Ubuntu desktop. Verify with
+`python3 -m tkinter`. Then you will be able to install and run this app:
+
 ```
 ~$ git clone https://github.com/n8marti/time-app
 ~$ cd ./time-app
